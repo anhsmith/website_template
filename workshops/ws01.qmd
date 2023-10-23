@@ -1,0 +1,23 @@
+---
+title: Workshop 1
+---
+
+# Introduction to workshop 1
+
+# Section 2 of workshop 1
+
+## First sum
+
+```{r}
+1 + 1
+```
+
+
+## Second sum
+
+```{r}
+1 + 2
+```
+
+
+

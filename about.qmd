@@ -1,0 +1,13 @@
+---
+title: "About"
+---
+
+## About this site
+
+```{r}
+1 + 1
+```
+
+## Some more about this site
+
+### And more

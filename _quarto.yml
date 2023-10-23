@@ -1,0 +1,46 @@
+project:
+  type: website
+
+website:
+  title: "website_template"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+
+      - text: "About"
+        href: about.qmd
+
+      - text: "Slides"
+        href: slides.qmd
+        
+      - text: "Study Guide"
+        href: studyguide/sg01.qmd
+
+      - text: "Workshops"
+        href: workshops/ws01.qmd
+
+  sidebar: 
+  
+    - id: studyguide
+      title: "Study Guide"
+      collapse-level: 2
+      contents: 
+        - href: studyguide/sg01.qmd
+        - href: studyguide/sg02.qmd
+        
+    - id: workshops
+      title: "Workshops"
+      collapse-level: 2
+      contents: 
+        - href: workshops/ws01.qmd
+        - href: workshops/ws02.qmd
+        
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

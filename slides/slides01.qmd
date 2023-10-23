@@ -1,0 +1,24 @@
+---
+title: "Chapter 1"
+format: 
+  revealjs:
+    width: 1050
+    height:	700
+    transition: fade
+    slide-number: c/t  
+    styles:
+      - revealjs.dark:
+        background-color: #222
+        color: #fff
+execute:
+  echo: true
+---
+
+
+## Slide 1
+
+```{r}
+1 + 1
+```
+
+## Slide 2
